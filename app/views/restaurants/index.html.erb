@@ -1,0 +1,9 @@
+<!-- FILEPATH: /Users/gastonhenrich2/code/Henrichgaston/rails-yelp-mvp/app/views/layouts/index.html.erb -->
+
+<h1>All Restaurants</h1>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li><%= restaurant.name %></li>
+  <% end %>
+</ul>
